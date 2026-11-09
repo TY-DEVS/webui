@@ -8,8 +8,8 @@
   "description": "Stalwart WebUI",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
+    "dev": "node init && vite",
+    "build": "node init && tsc -b && vite build",
     "typecheck": "tsc -p tsconfig.app.json --noEmit",
     "lint": "eslint .",
     "preview": "vite preview",
@@ -48,6 +48,7 @@
     "react": "^19.3.0",
     "react-dom": "^19.3.0",
     "react-i18next": "^17.0.16",
+    "react-is": "^19.0.0",
     "react-markdown": "^10.1.0",
     "react-router-dom": "^7.18.4",
     "recharts": "^3.10.1",
